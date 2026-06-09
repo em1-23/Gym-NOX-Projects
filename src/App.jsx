@@ -1,4 +1,7 @@
 import React from "react";
+import LinearSection from './Linear-Section.jsx';
+import InputSend from './Input-Send.jsx';
+import SectionButtonTransition from './Section-Button-Transition.jsx';
 function App(){
 	return(
 		<div className="Gym-Pages">
@@ -11,12 +14,14 @@ function App(){
 				<li>NOX</li>
 				<li>NOX</li>
 			</ul>
-			<div className="Rotate-Shape">
-				<span>18.2K</span><br />
-				<span className="Description">
-					Follower 
-				</span>
-			</div>
+			<LinearSection className="Linear-Section" styleSection={{rotate:"357deg"}} />
+			<LinearSection className="Linear-Section" styleSection={{rotate:"6deg" ,backgroundColor:"white" ,color:"black"}} />
+			<InputSend placeholder="Send A Good News" />
+			<SectionButtonTransition className="Section-Button-Transition" 
+				h1Number="01"
+				h3Type="Your Plan"
+				li="jounir"
+			/>
 		</div>
 	);
 }
