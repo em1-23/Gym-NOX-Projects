@@ -1,0 +1,26 @@
+@font-face {
+	font-family: 'Cyber Bank Font';
+	src: url(./fonts/SDCyberPunkCityDemo.otf) format(OpenType);
+}
+@font-face {
+	font-family: 'Rovelink Font';
+	src: url(./fonts/Rovelink.otf) format(OpenType);
+}
+@font-face {
+	font-family: 'Avengers Font';
+	src: url(./fonts/AVENGEANCE\ HEROIC\ AVENGER\ BD.otf) format(OpenType) ,
+		 url(./fonts/AVENGEANCE\ HEROIC\ AVENGER\ BD.ttf) format(TrueType)	
+	;
+}
+h1{
+	font-family: 'Avengers Font';
+	font-size: 50px;
+}
+h2{
+	font-family: 'Rovelink Font';
+	font-size: 50px;
+}
+h3{
+	font-family: 'Cyber Bank Font';
+	font-size: 50px;
+}
